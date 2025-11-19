@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Deportivo Nacional</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="Img/Futbol.webp">
+</head>
+<body>
+    <header class="encabezado">
+        <h1><strong>Club Atletico Nacional</strong></h1>
+        <img src="Img/n.jpeg" alt="Logo" width="100">
+        <p><strong>Passion, tradiccion y gloria desde 1920</strong></p>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#noticias"> <i>Noticias Destacadas</i> </a></li>
+            <li><a href="#jugadores"><i>Jugadores Destacados</i></a></li>
+            <li><a href="#galeria"><i>Galeria</i></a></li>
+            <li><a href="#momentos"><i>Momentos Descatados</i></a></li>
+            <li><a href="#contactos"><i>Contacto</i></a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos al club Deportivo Azul</h2>
+            <p><strong>Somos mas que un equipo de futbol, somos una familia. Con mas de 100 años de historia, respresentamos los valoresdel deportela dedicacion y el trabajo en equipo</strong></p>
+
+            <h3>Proximo Partido</h3>
+            <p><i>NACIONAL VS MEDELLIN</i></p>
+            <p>Estadio Atanacio Giraldo 23 de noviembre , 20:00h</p>
+            <p><a href="entradas.html">¡Consigue tus entradas aqui!</a></p>
+
+            <h3>Ultimo Resultado</h3>
+            <p><strong>NACIONAL 4 - 1 MEDELLIN</strong></p>
+            <p><i>Goles: Hinestrosa (3), Morelos (1)</i></p>
+        </section>
+
+        <section id="Noticias">
+            <h2>Noticias Destacadas</h2>
+
+            <article>
+                <h3>Nueva contratacion: James Rodriguez</h3>
+                <p>El Club Deportivo Azul anuncia la incorporacion extremo Diego Torres, proveniente del FC PORTO. Con 32 años y amplia experiencia en primera division, se espera que fortalezcanuestro centro del campo.</p>
+                <p><em>Publicado: 11 de octubre, 2025</em></p>
+            </article>
+
+            <article>
+                <h3>Inaguracion de la nueva academia juvenil</h3>
+                <p>Este mes hemos inagurado nuestras nuevas instalaciones para la academia de futbol base, con capacidad para 200 jovenes entre 6 y 18 años. un paso mas en nuestro compromiso con el desarrollo del futbol local.</p>
+                <p><em>Publicado: 1 Junio, 2025</em></p>
+            </article>
+        </section>
+
+        <section id="jugadores">
+            <h2>Jugadores Descatados</h2>
+            <table>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>POSICION</th>
+                    <th>PARTIDOS</th>
+                    <th>GOLES</th>
+                </tr>
+                <tr>
+                    <td>Juan Gonzalez</td>
+                    <td>Delantero</td>
+                    <td>65</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Sebastian Lopez</td>
+                    <td>Defensa</td>
+                    <td>45</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Darwin Torres</td>
+                    <td>Arquero</td>
+                    <td>36</td>
+                    <td>19</td>
+                </tr>
+            </table>
+            <p><a href="jugadores.html">Ver pantilla completa</a></p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <img src="Img/cele gol.jpg" alt="Equipo celebrando gol" width="300">
+            <img src="Img/estadio.jpeg" alt="Estadio lleno" width="300">
+            <img src="Img/entre.jpg" alt="Entrenamiento" width="300">
+            <p><a href="galeria.html">Ver más fotos</a></p>
+        </section>
+
+        <section id="momentos">
+            <h2>Momentos Destacados</h2>
+            <p>Revive los mejores momentos de nuestra última victoria 3-1 contra el Atlético Norte.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacta con Nosotros</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    
+                    <label for="telefono">Teléfono (opcional):</label><br>
+                    <input type="tel" id="telefono" name="telefono"><br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Tu Mensaje</legend>
+                    <label for="asunto">Asunto:</label><br>
+                    <select id="asunto" name="asunto">
+                        <option value="general">Consulta general</option>
+                        <option value="entradas">Información sobre entradas</option>
+                        <option value="socios">Información para socios</option>
+                        <option value="prensa">Prensa y medios</option>
+                        <option value="otros">Otros</option>
+                    </select><br><br>
+                    
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br><br>
+                    
+                    <input type="checkbox" id="newsletter" name="newsletter" value="si">
+                    <label for="newsletter">Suscribirme al boletín de noticias</label><br><br>
+                </fieldset>
+                
+                <input type="submit" value="Enviar Mensaje">
+                <input type="reset" value="Limpiar Formulario">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div>
+                <h3>Club Deportivo Nacional</h3>
+                <p>Av. del Deporte, Guayabal</p>
+                <p>28000 Ciudad Verde</p>
+                <p>Teléfono: +57 326 586 52 45</p>
+                <p>Email: nacional@clubdeportivo.me</p>
+            </div>
+            
+            <div>
+                <h3>Síguenos en:</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <div>
+            <p>&copy; 2023 Club Deportivo Azul. Todos los derechos reservados.</p>
+            <p><a href="privacidad.html">Política de Privacidad</a> | <a href="cookies.html">Cookies</a></p>
+        </div>
+    </footer>
+</body>
+</html>
