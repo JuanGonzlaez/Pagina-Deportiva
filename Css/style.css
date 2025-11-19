@@ -152,7 +152,7 @@ table tr:hover {
 section img {
     margin: 10px;
     border-radius: 8px;
-    border: 3px solid #1a3d7c;
+    border: 3px solid #014011;
     transition: transform 0.3s;
 }
 
@@ -175,14 +175,14 @@ form {
 }
 
 fieldset {
-    border: 2px solid #1a3d7c;
+    border: 2px solid #014011;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 legend {
-    color: #1a3d7c;
+    color: #014011;
     font-weight: bold;
     padding: 0 10px;
 }
@@ -190,7 +190,7 @@ legend {
 label {
     display: block;
     font-weight: bold;
-    color: #2c5282;
+    color: #000000;
 }
 
 input[type="text"],
@@ -211,7 +211,7 @@ input[type="checkbox"] {
 
 input[type="submit"],
 input[type="reset"] {
-    background-color: #1a3d7c;
+    background-color: #6c757d;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -227,17 +227,17 @@ input[type="reset"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #153061;
+    background-color: #014011;
 }
 
 input[type="reset"]:hover {
-    background-color: #545b62;
+    background-color: #014011;
 }
 
 /* Footer */
 footer {
-    background-color: #1a3d7c;
-    color: white;
+    background: linear-gradient(90deg, #014011, #03A64A);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     margin-top: 10px;
 }
@@ -245,7 +245,7 @@ footer {
 footer section {
     display: flex;
     justify-content: center;
-    background-color: #1a3d7c;
+    background: linear-gradient(90deg,#03A64A, #014011);
 }
 
 footer div {
@@ -254,7 +254,7 @@ footer div {
 }
 
 footer h3 {
-    color: #d4af37;
+    color: #050503;
     margin-bottom: 15px;
 }
 
@@ -276,7 +276,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #d4af37;
+    color: #0f130f;
     text-decoration: underline;
 }
 
@@ -288,6 +288,6 @@ a {
 }
 
 a:hover {
-    color: #d4af37;
+    color: #6c757d;
     text-decoration: underline;
 }
